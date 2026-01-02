@@ -131,6 +131,22 @@
           <br />
           <input id="linkedin" type="checkbox" name="social" value="linkedin" />
           <label for="linkedin">LinkedIn</label>
+          <br />
+          <label for="musicStyle">Estilo Musical:</label>
+          <input
+            list="styleTypes"
+            type="text"
+            id="musicStyle"
+            name="usermusicStyle"
+          />
+          <datalist id="styleTypes">
+            <option value="rock"></option>
+            <option value="pop"></option>
+            <option value="rap"></option>
+            <option value="sertanejo"></option>
+            <option value="samba"></option>
+            <option value="funk"></option>
+          </datalist>
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
